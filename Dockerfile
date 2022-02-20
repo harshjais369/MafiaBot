@@ -1,7 +1,7 @@
-FROM TheMafiaBot/MAFIA-USERBOT:latest
+FROM harshjais369/ProfessorBot:latest
 
 # clonning repo 
-RUN git clone https://github.com/TheMafiaBot/MAFIA-USERBOT.git /root/userbot
+RUN git clone https://github.com/harshjais369/ProfessorBot.git /root/userbot
 
 RUN pip install --upgrade pip
 
