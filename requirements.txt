@@ -4,6 +4,7 @@ PyPDF2
 PyDictionary
 pygments
 pymediainfo
+pytz
 aiofiles
 asyncurban
 aiohttp
