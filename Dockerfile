@@ -1,14 +1,9 @@
-FROM harshjais369/professorbot:latest
-
-RUN apt-get update && apt-get -y install \
-    python3 python3-dev python3-dev python3-pip python3-venv
-RUN apt-get install git curl python3-pip ffmpeg -y
-ARG USER=root
-USER $USER
-RUN python3 -m venv venv
+FROM harshjais369/ProfessorBot:latest
 
 # clonning repo 
-RUN git clone https://github.com/harshjais369/professorbot.git /root/userbot
+RUN git clone https://github.com/harshjais369/ProfessorBot.git /root/userbot
+
+RUN pip install --upgrade pip
 
 # working directory 
 WORKDIR /root/userbot
