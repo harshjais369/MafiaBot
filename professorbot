@@ -35,11 +35,4 @@ _set_bot () {
     python3 -m userbot
 }
 
-unset PYTHONPATH
-unset PYTHONHOME
-rm -rf venv
-virtualenv -p /usr/bin/python3 venv/
-source venv/bin/activate
-pip install -r requirements.txt
-
 _set_bot
