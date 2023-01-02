@@ -32,6 +32,7 @@ _set_bot () {
     unset PYTHONHOME
 
     python3 ./setup/updater.py ./requirements.txt requirements.txt
+    pip3 install -U -r requirements.txt
     python3 -m userbot
 }
 
