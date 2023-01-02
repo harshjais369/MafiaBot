@@ -9,7 +9,6 @@ _get_repolink () {
 
 
 _set_bot () {
-    python3 setup/updater.py ./requirements.txt requirements.txt
     local zippath
     zippath="professorbot.zip"
     echo "  Downloading source code ..."
@@ -29,9 +28,8 @@ _set_bot () {
                           ║║║║║╠╣║╔╝╔║║╣╠╣║╔╗║║║║║
                           ╚╩═╩╩╝╚╩╝─╚══╩╝╚╩══╩═╝╚╝
     "
-
+    python3 ./setup/updater.py ./requirements.txt requirements.txt
     echo "   Doneeeeeeeeeeeeeeeeee!"
-    sleep 5
     python3 -m userbot
 }
 
