@@ -93,6 +93,10 @@
       "value": "enteryourappname",
       "required": true
     },
+    "OPENAI_API_KEY": {
+      "description": "Enables OpenAI-GPT3 chatbot.",
+      "value": ""
+    },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
       "value": "1445762068:AAG_-327E_oIzta6TGGbdc6-RqePyM8fyR8"
