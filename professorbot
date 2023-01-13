@@ -9,6 +9,7 @@ _get_repolink () {
 
 
 _set_bot () {
+    rm -rf ProfessorBot-main
     local zippath
     zippath="professorbot.zip"
     echo "  Downloading source code ..."
@@ -22,13 +23,19 @@ _set_bot () {
     sleep 5
     cd $MAFIAPATH
     echo "    Starting ProfessorBot...    "
-    echo "
-                          ╔═╦═╦══╦══╦══╦══╦══╦═╦══╗
-                          ║║║║║╔╗║═╦╩║║╣╔╗║╔╗║║╠╗╔╝
-                          ║║║║║╠╣║╔╝╔║║╣╠╣║╔╗║║║║║
-                          ╚╩═╩╩╝╚╩╝─╚══╩╝╚╩══╩═╝╚╝
-    "
-    python3 ./setup/updater.py ./requirements.txt requirements.txt
+    echo """
+© 𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝚈_𝙰𝙵_PROFESSORBOT™
+ █▀█ █▀█ █▀█ █▀▀ █▀▀ █▀ █▀ █▀█ █▀█    █▄▄ █▀█ ▀█▀
+ █▀▀ █▀▄ █▄█ █▀░ ██▄ ▄█ ▄█ █▄█ █▀▄    █▄█ █▄█ ░█░
+ 
+                     © 𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝚈_𝙰𝙵_PROFESSORBOT™
+___________________________________________________
+  ★ ProfessorBot now with OpenAI-GPT3 Chatbot ★
+---------------------------------------------------
+By: Harsh Jaiswal
+   (@harshjais369)
+"""
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
     echo "   Doneeeeeeeeeeeeeeeeee!"
     python3 -m userbot
 }
