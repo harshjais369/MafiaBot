@@ -1,16 +1,16 @@
-FROM harshjais369/ProfessorBot:latest
+FROM harshjais369/professorbot:main
 
 # clonning repo 
-RUN git clone https://github.com/harshjais369/ProfessorBot.git /root/userbot
+RUN git clone https://github.com/harshjais369/MafiaBot.git /root/prfbot
 
 RUN pip install --upgrade pip
 
 # working directory 
-WORKDIR /root/userbot
+WORKDIR /root/prfbot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+#ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["python3","-m","userbot"]
+CMD ["bash","professorbot"]
