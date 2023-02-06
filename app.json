@@ -7,7 +7,9 @@
     "userbot",
     "plugin",
     "modular",
-    "productivity"
+    "productivity",
+    "professorbot",
+    "harshjais369"
   ],
   "repository": "https://github.com/harshjais369/MafiaBot",
   "website": "https://github.com/harshjais369/MafiaBot",
@@ -96,6 +98,12 @@
     "OPENAI_API_KEY": {
       "description": "Enables OpenAI-GPT3 chatbot.",
       "value": ""
+      required: false
+    },
+    "DATABASE_URL": {
+      "description": "Enables external database connection",
+      "value": ""
+      required: false
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
@@ -116,33 +124,27 @@
       "required": true
     },
     "PM_DATA": {
-      "description": "Type DISABLE if you want to disable pm protection... ",
+      "description": "Type `DISABLE` if you want to disable pm protection.",
       "value": "ENABLE",
       "required": false 
     }
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
-    }
-  ],
+  "addons": [],
   "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/amivin/aria2-heroku.git"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "heroku/python"
-  }]
+    },{
+      "url":"https://github.com/amivin/aria2-heroku.git"
+    },{
+      "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+    },{
+       "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },{
+      "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+    },{
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    },{
+      "url": "heroku/python"
+    }
+  ]
 }
