@@ -2,14 +2,14 @@
 
 
 _get_repolink () {
-    local regex
-    regex='(https?)://github.com/.+/.+'
+    # local regex
+    # regex='(https?)://github.com/.+/.+'
     echo "https://github.com/harshjais369/ProfessorBot/archive/master.zip"
 }
 
 
 _set_bot () {
-    rm -rf ProfessorBot-main
+    # rm -rf ProfessorBot-main
     local zippath
     zippath="professorbot.zip"
     echo "  Downloading source code ..."
@@ -35,8 +35,7 @@ ___________________________________________________
 By: Harsh Jaiswal
    (@harshjais369)
 """
-    python3 ../setup/updater.py ../requirements.txt requirements.txt
-    echo "   Doneeeeeeeeeeeeeeeeee!"
+    python3 ./setup/updater.py ./requirements.txt requirements.txt
     python3 -m userbot
 }
 
