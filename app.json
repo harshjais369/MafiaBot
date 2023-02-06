@@ -1,7 +1,7 @@
 {
   "name": "ProfessorBot",
   "description": "Telegram Userbot\nMade by Himanshu (Mafia Bot)\nRe-engineered by Harsh Jaiswal (Professor Bot)\nContact: @harshjais369",
-  "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+  "logo": "https://telegra.ph/file/8aa2ad86a6e5074ed9be1.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -20,12 +20,12 @@
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
+      "description": "Downloaded files will be saved at...",
       "value": "./userbot/DOWNLOADS/",
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @HARSHJAIS369. By default it is Professor-Bot User",
+      "description": "Fill your Full name or Username, ie @HARSHJAIS369. By default, it is ProfessorBot-user",
       "value": "PROFESSOR BOT",
       "required": false
     },
@@ -36,12 +36,12 @@
     },    
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .mafia Command.",
-      "value": "😈 PROFESSORBOT IS ALIVE 😈",
+      "value": "⚡ PROFESSORBOT IS ALIVE ⚡",
       "required": false
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .mafia command.",
-      "value": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+      "value": "https://telegra.ph/file/8aa2ad86a6e5074ed9be1.jpg",
       "required": false
     },
     "BIO_MSG": {
@@ -50,8 +50,8 @@
       "required": false
     },
     "PMPERMIT_PIC": {
-      "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+      "description": "Put here any telegraph media link for custom pmpermit pic.",
+      "value": "https://telegra.ph/file/8aa2ad86a6e5074ed9be1.jpg",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
@@ -78,31 +78,31 @@
       "value": "6930b92388baabff4cb4a1d377085035"
     },
     "MAFIABOT_LOGGER": {
-      "description": "Create a private channel/group add rose then type /id in group.",
+      "description": "Create a private channel/group. Add MissRose bot, then type /id in group.",
       "value": "-1001174481876"
     },
     "STRING_SESSION": {
-      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "description": "Get this value by running [session gen script].py ",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. (Required for updater to work)",
       "value": "22c9f205-3860-48e7-a1e5-457c15480877",
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "description": "The Value of App Name you filled in right on top. (Required for updater to work)",
       "value": "enteryourappname",
       "required": true
     },
     "OPENAI_API_KEY": {
       "description": "Enables OpenAI-GPT3 chatbot.",
-      "value": ""
+      "value": "",
       "required": false
     },
     "DATABASE_URL": {
       "description": "Enables external database connection",
-      "value": ""
+      "value": "",
       "required": false
     },
     "TG_BOT_TOKEN_BF_HER": {
@@ -111,15 +111,15 @@
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
-      "value": "@PROFESSOR_bot"
+      "value": "@profuserbot"
     },
     "HELP_PIC": {
-      "description": "Put link of pic or gif to show your .help menu provider cool",
-      "value": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+      "description": "Link of pic/gif to make your .help menu provider look more cool",
+      "value": "https://telegra.ph/file/8aa2ad86a6e5074ed9be1.jpg",
       "required": false 
     },
     "EMOJI_IN_HELP": {
-      "description": "Put here your favorite emoji to make your bot cool.",
+      "description": "Put here your favorite emoji to make your bot look more cool.",
       "value": "⚡",
       "required": true
     },
